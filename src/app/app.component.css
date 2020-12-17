@@ -1,0 +1,21 @@
+.alerts {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.alerts > * {
+    flex-basis:0;
+    flex-grow:1;
+    margin:10px;
+}
+.container {
+    margin-top:15px;
+}
+
+@media only screen and (max-width: 425px)
+{
+    .alerts {
+    flex-direction:column;
+    }
+}
